@@ -1,0 +1,63 @@
+body {
+  height: auto;
+}
+.container {
+  width: 22rem;
+  height: 25.5rem;
+  margin-bottom: 4rem;
+}
+.age-input {
+  width: 100%;
+}
+.age-input label {
+  font-size: 0.55rem;
+}
+.age-input input {
+  width: 5rem;
+  padding: 0.6rem;
+  font-size: 0.73rem;
+}
+.age-input input::placeholder {
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.05rem;
+}
+
+.border {
+  border-top: 1px solid #eaeaea;
+  width: 100%;
+  margin-top: 2.7rem;
+}
+.img {
+  height: 2.5rem;
+  width: 2.75rem;
+  margin-top: 1.5rem;
+}
+.img img {
+  width: 1.8rem;
+}
+.calculator {
+  margin-top: 2rem;
+}
+.age-days,
+.age-months,
+.age-years {
+  margin-bottom: 1rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+.attribution {
+  padding: 0 3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
+.empty {
+  font-size: 0.55rem;
+  margin-top: 0.4rem;
+  color: var(--light-red);
+  font-weight: 600;
+  display: none;
+}

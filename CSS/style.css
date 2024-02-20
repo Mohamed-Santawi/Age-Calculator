@@ -1,0 +1,124 @@
+/* Start Main Components */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 72%);
+  --white: #fff;
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smokey-grey: hsl(0, 1%, 44%);
+  --off-black: hsl(0, 0%, 8%);
+  --link-color: hsl(228, 45%, 44%);
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #dedede;
+  height: auto;
+}
+/* End Main Components */
+/* Start Main Page Style */
+.container {
+  background-color: var(--white);
+  width: 35rem;
+  height: 30rem;
+  border-radius: 1.5rem 1.5rem 6rem 1.5rem;
+  margin: 3rem auto 2.5rem;
+  padding: 2rem;
+}
+.age-input {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.days,
+.months,
+.years {
+  display: flex;
+  flex-direction: column;
+}
+.age-input label {
+  margin-bottom: 0.3rem;
+  color: var(--smokey-grey);
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09rem;
+}
+.age-input input {
+  width: 7rem;
+  border: 1px solid #dedede;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.age-input input::placeholder {
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+.age-input input:focus {
+  outline: none;
+}
+.border-img {
+  width: 100%;
+  display: flex;
+}
+.border {
+  border-top: 1px solid #eaeaea;
+  width: 100%;
+  margin-top: 2rem;
+}
+.img {
+  height: 3.8rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  background-color: var(--purple);
+  display: flex;
+}
+.img img {
+  width: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.img:hover {
+  transition: all ease 400ms;
+  background-color: #000;
+}
+.age-days,
+.age-months,
+.age-years {
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 0.01rem;
+}
+.dash-calc {
+  color: var(--purple);
+  margin-right: 0.5rem;
+}
+.attribution {
+  padding: 0 3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
+.empty {
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+  color: var(--light-red);
+  font-weight: 600;
+  display: none;
+}
+/* End Main Page Style */
